@@ -1,0 +1,236 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: rgba(215, 211, 211, 0.3);
+	font-family: 'Poppins', sans-serif;
+}
+.contenedor{
+	width: 95%;
+	max-width: 1124px;
+	margin: 0 auto;
+
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(8, auto);
+
+	grid-template-areas: "header  header"
+						 "slider slider"
+						 "titulo titulo"
+						 "adopta1 adopta2"
+						 "titulo1 titulo1"
+						 "doctores doctores"	
+						 "sponsor sponsor"
+						 "footer footer";	
+}
+/*  ------------------------------- */
+/*             HEADER               */
+/*  ------------------------------- */
+.contenedor .cabeceraPrincipal{
+	grid-area: header;
+	background-color: #B5EF8A;
+	display: flex;
+	justify-content: space-between;
+}
+.contenedor .cabeceraPrincipal .logotipo{
+	padding: 10px 20px;
+}
+.contenedor .cabeceraPrincipal nav{
+	display: flex;
+	align-items: center;
+}
+.contenedor .cabeceraPrincipal nav a{
+	text-decoration: none;
+	padding: 0 20px;
+	color:  #65524D;
+}
+.contenedor .cabeceraPrincipal nav a:hover{
+	background-color: #65524D;
+	color: #fff
+}
+/*  ------------------------------- */
+/*             Slider               */
+/*  ------------------------------- */
+.contenedor .sliderPrincipal{
+	grid-area: slider;
+	background-color: #333;
+}
+.contenedor .sliderPrincipal img{
+	width: 100%;
+}
+.contenedor .titulo{
+	grid-area: titulo;
+	background-color: #F2EEEE;
+	text-align: center;
+}
+.contenedor .titulo h2{
+	color: #9C9B9B;
+	font-size: 40px;
+	font-weight: 300;
+	padding: 30px 0;
+}
+.contenedor .titulo1{
+	grid-area: titulo1;
+	background-color: #F2EEEE;
+	text-align: center;
+}	
+.contenedor .titulo1 h2{
+	color: #9C9B9B;
+	font-size: 40px;
+	font-weight: 300;
+	padding: 30px 0;
+}
+.contenedor .adopcion1{
+	grid-area: adopta1;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.contenedor .adopcion1 .cardog h3{
+	font-size: 25px;
+	color: #817E9F;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+.contenedor .adopcion1 .cardog p{
+	padding: 5px 10px;
+	color: #605B5B;
+}
+.contenedor .adopcion2{
+	grid-area: adopta2;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.contenedor .adopcion2 .carcat h3{
+	font-size: 25px;
+	color: #817E9F;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+.contenedor .adopcion2 .carcat p{
+	padding: 5px 10px;
+	color: #605B5B;
+}
+/*  --------------------------------- */
+/*             Doctores               */
+/*  --------------------------------- */
+.contenedor .doctores{
+    grid-area: doctores;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "doctor1 doctor2 doctor3";
+    background-color: #333;
+
+}
+.contenedor .doctor1{
+	grid-area: doctor1;
+	background-color: #fff;
+	display: flex;
+	justify-content: safe center;
+}
+
+.contenedor .doctor1 .doc1 h3{
+	font-size: 25px;
+	color: #817E9F;
+	text-transform: uppercase;
+	padding: 5px 10px;
+
+}
+.contenedor ..doctor1 .doc1 p{
+	padding: 5px 10px;
+	color: #605B5B;
+}
+.contenedor .doctor2{
+	grid-area: doctor2;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.contenedor .doctor2 .doc2 h3{
+	font-size: 25px;
+	color: #817E9F;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+.contenedor ..doctor2 .doc2 p{
+	padding: 5px 10px;
+	color: #605B5B;
+}
+.contenedor .doctor3{
+	grid-area: doctor3;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.contenedor .doctor3 .doc3 h3{
+	font-size: 25px;
+	color: #817E9F;
+	text-transform: uppercase;
+	padding: 5px 10px;
+}
+.contenedor ..doctor3.doc3 p{
+	padding: 5px 10px;
+	color: #605B5B;
+}
+.contenedor .sponsor{
+	grid-area: sponsor;
+	background-color: #333;
+}
+/*  ------------------------------- */
+/*             Footer               */
+/*  ------------------------------- */
+.contenedor .piePagina{
+	grid-area: footer;
+	background-color: #1B1B1B;
+	display: flex;
+	justify-content: space-between;
+}
+.piePagina .derechos{
+	color:  #A3A3A3;
+	padding: 30px 50px;
+}
+.piePagina .redes{
+	display: flex;
+	align-content: center;
+}
+.contenedor .piePagina .redes a{
+	color: #D7F171;
+	text-decoration: none;
+	padding: 20px 20px;
+	font-size: 25px;
+}
+.contenedor .piePagina .redes a:hover{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
