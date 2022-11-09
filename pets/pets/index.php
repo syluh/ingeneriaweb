@@ -1,4 +1,4 @@
-
+		
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,12 +15,13 @@
 <body>
 <div class="contenedor">
 	<header class="cabeceraPrincipal">
-		<section class="logotipo"><img src="images/logotipoPet.png"></section>
+		<section class="logotipo"><img src="images/logotipoPet.png">
+		</section>
 		<nav class="menuPrincipal">
 			<a href="#">Inicio</a>
 			<a href="#">Servicios</a>
 			<a href="#">Productos</a>
-			<a href="#">Adopción</a>
+			<a href="internas/adopcion.php">Adopción</a>
 			<a href="#">Contactos</a>
 		</nav>
 	</header>
@@ -28,7 +29,7 @@
 		<img src="images/dogs.jpg">
 	</section>
 	<section class="titulo">
-		<h2>Adopcion</h2>
+		<h2>Adopción</h2>
 	</section>
 	<section class="adopcion1">
 		<img src="images/dog1.jpg">
@@ -58,8 +59,10 @@
 		<section class="doc1">
 			<h3>Jhonny Sins</h3>
 			<p>
-				Quizás el médico más famoso en Medicina es quizás poco conocido para el gran público, pero a Sir William Osler se le considera el padre de la práctica clínica moderna. 
+				Quizás el médico más famoso en Medicina es quizás poco conocido para el gran público
 			</p>
+			<button>Mas informacion</button>
+
 		</section>
 	</section>
 	<section class="doctor2">
@@ -67,8 +70,9 @@
 		<section class="doc2">
 			<h3>Hipocrates</h3>
 			<p>
-				Nacido en el 460 a.C. a Hipócrates se le llama el padre de la medicina occidental. Suyo es el juramento hipocrático que a día de hoy sigue siendo el referente ético de la profesión.  Aparte de ello.
+				Nacido en el 460 a.C. a Hipócrates se le llama el padre de la medicina occidental. la profesión.  Aparte de ello.
 			</p>
+			<button>Mas informacion</button>
 		</section>
 	</section>
 	<section class="doctor3">
@@ -76,13 +80,14 @@
 		<section class="doc3">
 			<h3>Ignaz Semmelweis</h3>
 			<p>
-				El médico húngaro Ignaz Semmelweis se hizo famoso en el siglo XIX por establecer unas nuevas condiciones sanitarias en el quirófano y en el entorno sanitario. 
+				El médico húngaro Ignaz Semmelweis se hizo famoso en el siglo XIX
 			</p>
+			<button>Mas informacion</button>
 		</section>
 	</section>
 	</section>
 	<section class="sponsor">
-		<h3>Sponsor</h3>
+		<img src="images/utpl.jpg">
 	</section>
 	<footer class="piePagina">
 		<section class="derechos">

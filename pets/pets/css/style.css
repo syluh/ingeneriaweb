@@ -62,7 +62,7 @@ body{
 }
 .contenedor .titulo{
 	grid-area: titulo;
-	background-color: #F2EEEE;
+	background-color: #f8f8ff;
 	text-align: center;
 }
 .contenedor .titulo h2{
@@ -71,9 +71,14 @@ body{
 	font-weight: 300;
 	padding: 30px 0;
 }
+.contenedor .sponsor{
+	grid-area: sponsor;
+	text-align: center;
+}
+
 .contenedor .titulo1{
 	grid-area: titulo1;
-	background-color: #F2EEEE;
+	background-color: #f8f8ff;
 	text-align: center;
 }	
 .contenedor .titulo1 h2{
@@ -130,7 +135,8 @@ body{
 	grid-area: doctor1;
 	background-color: #fff;
 	display: flex;
-	justify-content: safe center;
+	justify-content:space-between;
+
 }
 
 .contenedor .doctor1 .doc1 h3{
@@ -207,20 +213,55 @@ body{
 	color: #fff;
 }
 
+/*  ------------------------------- */
+/*     Adopción - Formulario        */
+/*  ------------------------------- */
+
+main{
+	grid-area: slider;
+	margin: 0 auto;
+	width: 90%;
+	padding: 2em 0;
+}
+.alerta{
+	color: red;
+}
+
+.grupoInput{
+	padding: 10px;
+}
 
 
+.grupoInput label{
+	display: block;
+}
 
+.grupoInput input[type=text],.grupoInput input[type=email],.grupoInput input[type=number],.grupoInput input[type=date]{
+	width: 90%;
+	padding: 10px;
+	border-radius: 5;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin: 4px 2px;
+}
 
+.button:hover{
+	background-color:#2C8F40;
+}
 
-
-
-
-
-
-
-
-
-
+.centrado{
+text-align: center;
+}
 
 
 
