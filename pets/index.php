@@ -19,7 +19,7 @@
 		</section>
 		<nav class="menuPrincipal">
 			<a href="#">Inicio</a>
-			<a href="#">Servicios</a>
+			<a href="internas/servicios.php">Servicios</a>
 			<a href="#">Productos</a>
 			<a href="internas/adopcion.php">Adopción</a>
 			<a href="#">Contactos</a>

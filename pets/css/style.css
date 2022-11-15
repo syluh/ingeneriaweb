@@ -185,6 +185,8 @@ body{
 .contenedor .sponsor{
 	grid-area: sponsor;
 	background-color: #333;
+	justify-content: center;
+	display: flex;
 }
 /*  ------------------------------- */
 /*             Footer               */
