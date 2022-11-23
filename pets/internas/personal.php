@@ -18,20 +18,24 @@
 		<section class="logotipo"><img src="../images/logotipoPet.png"></section>
 		<nav class="menuPrincipal">
 			<a href="../">Inicio</a>
-			<a href="#">Servicios</a>
+			<a href="servicios.php">Servicios</a>
 			<a href="#">Productos</a>
 			<a href="adopcion.php">Adopción</a>
 			<a href="#">Contactos</a>
 		</nav>
 	</header>
 	<main>
-		<h1>Servicios</h1>
-		<p>Un servicio es un conjunto de actividades que buscan satisfacer las necesidades de un cliente. Los servicios raramente incluyen una diversidad de actividades que se pueden planificar desempeñadas por un gran número de personas (funcionarios, empleados, empresarios) que trabajan para el estado (servicios públicos) o para empresas particulares (servicios privados); entre estos pueden señalarse los servicios de: electricidad, agua potable,limpieza, teléfono, telégrafo, correo, transporte, educación, internet, sanidad, asistencia social, etc. Donde las actividades se desarrollarán con la idea de fijar una expectativa en el resultado de estas. Es el equivalente no material de un bien. Un servicio se diferencia de un bien en que el primero se consume y se desgasta mientras que el segundo se mantiene perdurable en el tiempo.
+		<h2>Listado de personas</h2>
+		<?php
 
-		Al proveer algún nivel de habilidad, ingenio y experiencia, los proveedores de un servicio participan en una economía sin las restricciones de llevar inventario pesado o preocuparse por voluminosas materias primas. Por otro lado, requiere constante inversión en mercadotecnia, capacitaciones y actualización de cara a la competencia, la cual tiene igualmente pocas restricciones físicas.
-
-		Los proveedores de servicios componen el sector terciario de la industria. 
-	</p>
+		include("../dll/config.php");
+		include("../dll/class_mysqli.php");
+		$miconexion= new class_mysqli();
+		$miconexion->conectar(DBHOST, DBUSER, DBPASS, DBNAME);
+		$miconexion->consulta("select id, nombres, correo from personal");
+		$miconexion->verconsultaCRUD();
+		?>
+		
 	</main>
 	<section class="sponsor">
 		<img src="../images/utpl.jpg">
